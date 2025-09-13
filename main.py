@@ -19,5 +19,6 @@ def assign_grade(average_marks)
         print("Please enter marks between 0 and 100.")
 except ValueError:
     print("Invalid input! Please enter a numeric value.")
-
-    
+marks = [70,60,80,90,95]
+average = sum(marks)/len(marks)  
+print(assign_grade(average))
